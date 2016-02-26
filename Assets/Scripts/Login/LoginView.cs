@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Assets.Scripts.Sound;
-using System.Collections.Generic;
+using System;
 
 namespace Assets.Scripts.Login{
 
@@ -10,11 +10,13 @@ namespace Assets.Scripts.Login{
         //todo -> get var from Settings
         public InputField inputText;
         public Text incorrectInput;
+        private int challengeSelected;
         public Button ticBtn;   
-		public ToggleGroup toggleGroup;
-		public List<Toggle> levelToggles;
 
-		private int selectedLevel;
+        void Start()
+        {
+            challengeSelected = -1;
+        }
 
         // Use this for initialization
         void OnEnable(){
@@ -22,33 +24,36 @@ namespace Assets.Scripts.Login{
         }
 
         void Update(){
-			if (Input.anyKeyDown) {
-					ticBtn.interactable = inputText.text.Length > 2;
-			}
-			if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp(KeyCode.KeypadEnter)) { UpdateLevel ();CheckEnteredUsername(); }
-        }  
+            if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp(KeyCode.KeypadEnter)) { CheckEnteredUsername(); }
+            else if (Input.GetKeyUp(KeyCode.Escape)) OnClickBack();
+        }
+
+        internal int GetChallengeSelected()
+        {
+            return challengeSelected;
+        }
 
         public void OnClickTicBtn(){
             PlayClickSound();
-			UpdateLevel ();
             CheckEnteredUsername();
+            
         }
 
-		void UpdateLevel(){
-			IEnumerator<Toggle> toggleEnum = toggleGroup.ActiveToggles().GetEnumerator();
-			toggleEnum.MoveNext();
-			Toggle toggle = toggleEnum.Current;
-			selectedLevel = levelToggles.IndexOf (toggle);
-		}
+        public void OnClickToggle(int challenge)
+        {
+            PlayClickSound();
+            challengeSelected = challenge;
+        }
 
         void CheckEnteredUsername(){
             inputText.text = inputText.text.Trim();
-			LoginController.GetController().SaveUsername(inputText.text.ToLower(),selectedLevel);
+            LoginController.GetController().SaveUsername(inputText.text.ToLower());
         }
 
         internal void ShowIncorrectInputAnimation(){
             ticBtn.interactable = false;
             ticBtn.enabled = false;
+            incorrectInput.text = challengeSelected != -1 ? "Por favor, ingresa un nombre válido" : "Por favor, elige un desafío";
             incorrectInput.GetComponent<IncorrectUserAnimation>().ShowIncorrecrUserAnimation();
         }
 
@@ -65,9 +70,5 @@ namespace Assets.Scripts.Login{
         public void PlayClickSound(){
             SoundController.GetController().PlayClickSound();
         }
-
-
-
-
     }
 }

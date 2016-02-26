@@ -1169,9 +1169,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 168542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: d8396e0ffe4c46a42b3bfacf93d992c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coverScreen: {fileID: 0}
+  oxScreen: {fileID: 0}
+  aboutScreen: {fileID: 0}
 --- !u!114 &11442916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1180,9 +1183,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 172990}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 4193ba616faebd94aa5a6cd3a9092984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coverView: {fileID: 11437024}
+  nameLabel: {fileID: 11459720}
+  ageRangeLabel: {fileID: 11410074}
+  areaLabel: {fileID: 11481416}
+  areaText: {fileID: 11410456}
+  contentsLabel: {fileID: 11404548}
+  contentsText: {fileID: 11484120}
+  creditsLabel: {fileID: 11478156}
 --- !u!114 &11443672
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1191,9 +1202,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 143692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 38883642e8731b34dbc2f87019af2928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coverView: {fileID: 11437024}
+  startText: {fileID: 11405386}
+  aboutText: {fileID: 11403594}
 --- !u!114 &11446778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1314,7 +1328,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 168542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 3a53d01701eee9a4284cecd4e3eb929e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11455134
@@ -1559,9 +1573,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 169822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: a4241e9b9cc2d3b49966f30bffc83477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coverView: {fileID: 11437024}
+  description: {fileID: 11466842}
+  moreInformationLabel: {fileID: 11462512}
+  contactLabel: {fileID: 11465218}
 --- !u!114 &11466842
 MonoBehaviour:
   m_ObjectHideFlags: 1

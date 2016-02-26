@@ -1,18 +1,21 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using Assets.Scripts.Sound;
 using Assets.Scripts.App;
+using UnityEngine.UI;
+using Assets.Scripts._Levels;
 
 namespace Assets.Scripts.Instructions
 {
     public class GameRules : MonoBehaviour
     {
-		public Text instructionText;
+
+
+        [SerializeField]
+        private Text description;
 
         void Start(){
-			instructionText.text = (AppController.GetController ().GetCurrentGame () == 0) ? "LEE Y CONTESTA LAS PREGUNTAS"
-				: "Lee las historias y contesta las preguntas. Elige una respuesta correcta.";
-
+            //description.text = AppController.GetController().GetDescriptionOf(AppController.GetController().GetCurrentGame());
+            SoundController.GetController().PlayClip(ViewController.GetController().GetCurrentObject().GetComponent<LevelController>().GetInstructions());
         }
 
     

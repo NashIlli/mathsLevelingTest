@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Assets.Scripts.Sound;
 using Assets.Scripts._Levels;
+using System;
 
 namespace Assets.Scripts.App
 {
@@ -10,17 +11,24 @@ namespace Assets.Scripts.App
         private static ViewController viewController;
         public GameObject cover;
         public GameObject login;
-//        public GameObject mainMenu;
-//        public GameObject settings;
-//        public GameObject metrics;
+        public GameObject mainMenu;
         public GameObject inGameMenu;
         public GameObject instructions;
-//        public GameObject levelCompleted;
-		public GameObject readTest;
-		public GameObject viewPanel;
+        public GameObject levelCompleted;
+        public GameObject gameFinished;
+        public GameObject viewPanel;
         public List<GameObject> levels;
         private GameObject currentGameObject;
 
+        internal void PlayGame(int game)
+        {
+            ChangeCurrentObject(levels[game]);
+        }
+
+        internal void LoadMathsGame()
+        {
+            ChangeCurrentObject(levels[0]);
+        }
 
         // these objects are pop, the current object isn't destroyed when they are showed
         private GameObject inGameMenuScreen;
@@ -35,23 +43,12 @@ namespace Assets.Scripts.App
 
 		void Start(){
 			LoadCover ();
-		}
-
-//        internal void LoadMainMenu()
-//        {
-//            ChangeCurrentObject(mainMenu);
-//            SoundController.GetController().StopMusic();
-//        }    
+		}      
 
         internal void LoadCover()
         {
             ChangeCurrentObject(cover);		
-        }
-
-//        internal void LoadMetrics()
-//        {
-//            ChangeCurrentObject(metrics);
-//        }
+        }     
 
         private void ChangeCurrentObject(GameObject newObject)
         {
@@ -76,11 +73,6 @@ namespace Assets.Scripts.App
             child.transform.localScale = Vector3.one;
         }
 
-//        internal void LoadSettings()
-//        {
-//            ChangeCurrentObject(settings);
-//        }
-
         internal void LoadLogin()
         {
             ChangeCurrentObject(login);
@@ -88,8 +80,7 @@ namespace Assets.Scripts.App
 
         internal void StartGame(int currentLevel)
         {
-			AppController.GetController ().SetCurrentGame (currentLevel);
-			ChangeCurrentObject(readTest);         
+            ChangeCurrentObject(levels[currentLevel]);         
         }    
 
         internal void ShowInstructions()
@@ -107,10 +98,10 @@ namespace Assets.Scripts.App
             Destroy(instructionsScreen);
         }
 
-//        internal void LoadLevelCompleted()
-//        {
-//            ChangeCurrentObject(levelCompleted);
-//        }
+        internal GameObject GetCurrentObject()
+        {
+            return currentGameObject;
+        }
 
         public static ViewController GetController()
         {

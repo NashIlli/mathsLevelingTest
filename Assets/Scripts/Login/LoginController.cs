@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Assets.Scripts.App;
+using Assets.Scripts.Metrics;
 
 namespace Assets.Scripts.Login
 {
@@ -8,7 +9,7 @@ namespace Assets.Scripts.Login
     {
         private static LoginController loginController;
         public LoginView loginView;
-	
+
 
         void Awake(){
             if (loginController == null){
@@ -18,11 +19,14 @@ namespace Assets.Scripts.Login
             }
         }
 
-		public void SaveUsername(string username,int level){
-            if(username != "" && username.Length > 2){
-
+        public void SaveUsername(string username){
+            if(username != "" && username.Length > 2 && loginView.GetChallengeSelected() != -1)
+            {
                 AppController.GetController().SetUsername(username);
-				ViewController.GetController ().StartGame(level);
+                AppController.GetController().SetChallenge(loginView.GetChallengeSelected());
+                ViewController.GetController().LoadMathsGame();
+                MetricsController.GetController().LoadFromDisk(username);
+
             } else{
                 loginView.ShowIncorrectInputAnimation();
             }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Assets.Scripts.Sound;
+using System.Collections.Generic;
 using System;
 
 namespace Assets.Scripts.App
@@ -14,12 +15,22 @@ namespace Assets.Scripts.App
             else if (appController != this) Destroy(gameObject);     
             DontDestroyOnLoad(gameObject);
             appModel = new AppModel();
-        }         
+        }
+
+        internal int GetGamesQuantity()
+        {
+            return 5;
+        }    
 
         internal void PlayCurrentGame()
         {
-            SoundController.GetController().StopMusic();
             ViewController.GetController().StartGame(appModel.GetCurrentGame());
+        }
+
+        internal void NextGame()
+        {
+            appModel.SetCurrentGame(appModel.GetCurrentGame() + 1);
+            ViewController.GetController().PlayGame(appModel.GetCurrentGame());
         }
 
         internal void SetUsername(string username)
@@ -35,6 +46,11 @@ namespace Assets.Scripts.App
             return appModel.GetCurrentGame();
         }
 
+        internal int GetCurrentChallenge()
+        {
+            return appModel.GetCurretChallenge();
+        }
+
         internal void ShowInGameMenu(){
             ViewController.GetController().ShowInGameMenu();
         }    
@@ -42,15 +58,10 @@ namespace Assets.Scripts.App
         public static AppController GetController()
         {
             return appController;
-        }
+        }    
 
-        internal string GetActivityName(int game)
-        {
-            return appModel.GetDescriptionOf(game);
-        }
-
-        internal void SetLevel(int level) {
-            appModel.SetLevel(level);
+        internal void SetChallenge(int challenge) {
+            appModel.SetChallenge(challenge);
         }
     }
 }

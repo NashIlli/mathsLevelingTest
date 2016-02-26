@@ -18,6 +18,11 @@ namespace Assets.Scripts.MainMenu
             else if (mainMenuController != this) Destroy(gameObject);
         }
 
+        internal void PlayGame(int game)
+        {
+            ViewController.GetController().PlayGame(game);
+        }
+
         internal void ShowMenu()
         {
             menuView.gameObject.SetActive(true);
@@ -29,16 +34,6 @@ namespace Assets.Scripts.MainMenu
             gamePreview.gameObject.SetActive(true);
 
         }
-
-//        internal void ShowSettings()
-//        {
-//            ViewController.GetController().LoadSettings();
-//        }
-//
-//        internal void ShowMetrics()
-//        {
-//            ViewController.GetController().LoadMetrics();
-//        }
 
         public static MainMenuController GetController()
         {

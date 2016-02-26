@@ -97,6 +97,7 @@ GameObject:
   - 114: {fileID: 288744553}
   - 114: {fileID: 288744552}
   - 82: {fileID: 288744555}
+  - 114: {fileID: 288744556}
   m_Layer: 5
   m_Name: Application
   m_TagString: Untagged
@@ -128,13 +129,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d9cad1cf2e9b84dbc4c3f03625220c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrongAnswerSound: {fileID: 8300000, guid: 0a181173bdc254d2f9366f78e9cf8f79, type: 3}
-  rightAnswerSound: {fileID: 8300000, guid: e65646446e9d1491bb53830aa9489a69, type: 3}
   levelCompleteSound: {fileID: 8300000, guid: bba2992bb1c78445f8ce0d67ca38ebff, type: 3}
   clickSound: {fileID: 8300000, guid: ac323d54d2a254c5fa063412d69fd1e9, type: 3}
-  music: {fileID: 0}
+  rightAnswer: {fileID: 8300000, guid: e65646446e9d1491bb53830aa9489a69, type: 3}
+  wrongAnswer: {fileID: 8300000, guid: 0a181173bdc254d2f9366f78e9cf8f79, type: 3}
   soundSource: {fileID: 288744555}
-  musicSource: {fileID: 0}
 --- !u!114 &288744553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,13 +145,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ac043864189aa44bafbf7678f04ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cover: {fileID: 164528, guid: b82f5c99c8bb71b45b86cf9805d832fe, type: 2}
+  cover: {fileID: 168542, guid: b82f5c99c8bb71b45b86cf9805d832fe, type: 2}
   login: {fileID: 119648, guid: cc182db072ff85e49ac73f497d50127b, type: 2}
+  mainMenu: {fileID: 0}
   inGameMenu: {fileID: 137568, guid: cae38ecc093401c47b4eba35715b0d1f, type: 2}
   instructions: {fileID: 129252, guid: 3d040415f450de944af0b43aad4781b8, type: 2}
-  readTest: {fileID: 192754, guid: 21e6eff29bb7b46d5a3a9b9bb03caf5d, type: 2}
+  levelCompleted: {fileID: 0}
+  gameFinished: {fileID: 0}
   viewPanel: {fileID: 685247089}
-  levels: []
+  levels:
+  - {fileID: 146400, guid: 5a5446e7c3d09f541875481bf82c5ecf, type: 2}
 --- !u!114 &288744554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,6 +240,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &288744556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 288744550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5445d85c0876b96449039e7c4bc95d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &315732225
 GameObject:
   m_ObjectHideFlags: 0

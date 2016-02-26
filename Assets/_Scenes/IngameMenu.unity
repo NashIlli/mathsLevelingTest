@@ -303,13 +303,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d9cad1cf2e9b84dbc4c3f03625220c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrongAnswerSound: {fileID: 0}
-  rightAnswerSound: {fileID: 0}
   levelCompleteSound: {fileID: 0}
   clickSound: {fileID: 0}
-  music: {fileID: 0}
+  rightAnswer: {fileID: 0}
+  wrongAnswer: {fileID: 0}
   soundSource: {fileID: 0}
-  musicSource: {fileID: 0}
 --- !u!114 &1174630410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,9 +321,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cover: {fileID: 0}
   login: {fileID: 0}
+  mainMenu: {fileID: 0}
   inGameMenu: {fileID: 0}
   instructions: {fileID: 0}
-  readTest: {fileID: 0}
+  levelCompleted: {fileID: 0}
+  gameFinished: {fileID: 0}
   viewPanel: {fileID: 0}
   levels: []
 --- !u!114 &1174630411

@@ -1,0 +1,261 @@
+{
+	"maths": {
+		"instructions": "Sigue las instrucciones y elige la opción correcta",
+		"instructionsAudio" : "asd",
+		"levels": [{
+			"level": 1,
+			"exercises": [{
+				"name": "1.1",
+				"instructionAudio": "1.1",
+				"instructionText": "COMPLETA CON EL NÚMERO QUE FALTA",
+				"options": [30, 40, 38],
+				"correct": 1,
+				"image": "1-a-01",
+				"hintImg": "1-a-h-01"
+			}, {
+				"name": "1.2",
+				"instructionAudio": "1.2",
+				"instructionText": "ELIGE LA SECUENCIA CORRECTA",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "1-b-01",
+				"hintImg": "1-b-h-01"
+			}, {
+				"name": "1.3",
+				"instructionAudio": "1.3",
+				"instructionText": "REALIZA LA SUMA",
+				"options": [19, 17, 21],
+				"correct": 0,
+				"image": "1-c-01",
+				"hintImg": "1-c-h-01"
+			}, {
+				"name": "1.4",
+				"instructionAudio": "1.3",
+				"instructionText": "REALIZA LA SUMA",
+				"options": [21, 19, 18],
+				"correct": 0,
+				"image": "1-d-01",
+				"hintImg": "1-d-h-01"
+			}, {
+				"name": "1.5",
+				"instructionAudio": "1.5",
+				"instructionText": "REALIZA LA RESTA",
+				"options": [20, 30, 46],
+				"correct": 0,
+				"image": "1-e-01",
+				"hintImg": "1-e-h-01"
+			}, {
+				"name": "1.6",
+				"instructionAudio": "1.5",
+				"instructionText": "REALIZA LA RESTA",
+				"options": [38, 40, 32],
+				"correct": 0,
+				"image": "1-f-01",
+				"hintImg": "1-f-h-01"
+			}, {
+				"name": "1.7",
+				"instructionAudio": "1.7",
+				"instructionText": "ELIGE EL TRIÁNGULO",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "1-g-01",
+				"hintImg": "1-g-h-01"
+			}, {
+				"name": "1.8",
+				"instructionAudio": "1.8",
+				"instructionText": "ELIGE EL CUADRADO",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "1-h-01",
+				"hintImg": "1-h-h-01"
+			}, {
+				"name": "1.9",
+				"instructionAudio": "1.9",
+				"instructionText": "¿CUÁNTOS CHIPETINES TIENE AGUSTÍN?",
+				"options": [12, 14, 13],
+				"correct": 0,
+				"image": "1-i-01",
+				"hintImg": "1-i-h-01"
+			}, {
+				"name": "1.10",
+				"instructionAudio": "1.10",
+				"instructionText": "ELIGE LA BARRA MÁS LARGA",
+				"options": ["A", "B", "C"],
+				"correct": 0,
+				"image": "1-j-01",
+				"hintImg": "1-j-h-01"
+			}]
+		}, {
+			"level": 2,
+			"exercises": [{
+				"name": "2.1",
+				"instructionAudio": "2.1",
+				"instructionText": "¿Cuál de estas está mal escrita?",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "2-a-01",
+				"hintImg": "2-a-h-01"
+			}, {
+				"name": "2.2",
+				"instructionAudio": "2.2",
+				"instructionText": "Realiza la suma",
+				"options": [515, 151, 445],
+				"correct": 0,
+				"image": "2-b-01",
+				"hintImg": "2-b-h-01"
+			}, {
+				"name": "2.3",
+				"instructionAudio": "2.3",
+				"instructionText": "Realiza la resta",
+				"options": [662, 688, 702],
+				"correct": 0,
+				"image": "2-c-01",
+				"hintImg": "2-c-h-01"
+			}, {
+				"name": "2.4",
+				"instructionAudio": "2.4",
+				"instructionText": "Realiza la multiplicación",
+				"options": ["56", "58", "68"],
+				"correct": 0,
+				"image": "2-d-01",
+				"hintImg": "2-d-h-01"
+			}, {
+				"name": "2.5",
+				"instructionAudio": "2.5",
+				"instructionText": "Realiza la multiplicación",
+				"options": [250, 25, 500],
+				"correct": 0,
+				"image": "2-e-01",
+				"hintImg": "2-e-h-01"
+			}, {
+				"name": "2.6",
+				"instructionAudio": "2.6",
+				"instructionText": "Elige el número par",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "2-f-01",
+				"hintImg": "2-f-h-01"
+			}, {
+				"name": "2.7",
+				"instructionAudio": "2.7",
+				"instructionText": "¿Cuántas figuritas compró Matías?",
+				"options": [35, 30, 45],
+				"correct": 0,
+				"image": "2-g-01",
+				"hintImg": "2-g-h-01"
+			}, {
+				"name": "2.8",
+				"instructionAudio": "2.8",
+				"instructionText": "¿Cuántas revistas recibe el diariero?",
+				"options": [53, 47, 35],
+				"correct": 0,
+				"image": "2-h-01",
+				"hintImg": "2-h-h-01"
+			}, {
+				"name": "2.9",
+				"instructionAudio": "2.9",
+				"instructionText": "Elige el cubo",
+				"options": ["A", "B", "C"],
+				"correct": 0,
+				"image": "2-i-01",
+				"hintImg": "2-i-h-01"
+			}, {
+				"name": "2.10",
+				"instructionAudio": "2.10",
+				"instructionText": "Elige la pirámide",
+				"options": ["A", "B", "C"],
+				"correct": 0,
+				"image": "2-j-01",
+				"hintImg": "2-j-h-01"
+			}]
+		}, {
+			"level": 3,
+			"instructionAudio": "",
+			"exercises": [{
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}, {
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}, {
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}]
+		}, {
+			"level": 4,
+			"instructionAudio": "",
+			"exercises": [{
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}, {
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}, {
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}]
+		}, {
+			"level": 5,
+			"instructionAudio": "",
+			"exercises": [{
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}, {
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}, {
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}]
+		}, {
+			"level": 6,
+			"instructionAudio": "",
+			"exercises": [{
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}, {
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}, {
+				"name": "asd",
+				"options": ["a", "b", "c"],
+				"correct": 0,
+				"image": "asd",
+				"hintImg": "asd"
+			}]
+		}]
+	}
+}

@@ -5,14 +5,15 @@ namespace Assets.Scripts.Sound{
     public class SoundController : MonoBehaviour{
 	    private static SoundController soundController;
 
-	    public AudioClip wrongAnswerSound;
-	    public AudioClip rightAnswerSound;
 	    public AudioClip levelCompleteSound;
 	    public AudioClip clickSound;
-        public AudioClip music;
+        [SerializeField]
+        private AudioClip rightAnswer;
+
+        [SerializeField]
+        private AudioClip wrongAnswer;
 
         public AudioSource soundSource;
-	    public AudioSource musicSource;
 
         void Awake(){
             if (soundController == null){
@@ -29,20 +30,9 @@ namespace Assets.Scripts.Sound{
 	        soundSource.Play();
         }
 
-        public void PlayWrongSound(){
-		       soundSource.clip = wrongAnswerSound;
-		        soundSource.Play();
-	        
-        }
-
         public void PlayClickSound(){
 		    soundSource.clip = clickSound;
 		    soundSource.Play();    
-        }
-
-        public void PlayRightAnswerSound(){ 
-		    soundSource.clip = rightAnswerSound;
-		    soundSource.Play();
         }
 
         public void PlayLevelCompleteSound(){
@@ -50,17 +40,21 @@ namespace Assets.Scripts.Sound{
 		    soundSource.Play();
         }    
 
-        public void PlayMusic(){
-			musicSource.clip = music;
-		    musicSource.Play();         	
-        }
-
-        public void StopMusic(){
-	        musicSource.Stop();
-        }
 
         public void StopSound(){
             soundSource.Stop();
+        }
+
+        public void PlayRightSound()
+        {
+            soundSource.clip = rightAnswer;
+            soundSource.Play();
+        }
+
+        public void PlayWrongSound()
+        {
+            soundSource.clip = wrongAnswer;
+            soundSource.Play();
         }
 
         public static SoundController GetController(){

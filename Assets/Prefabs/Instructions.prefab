@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abcf07824b5fa8849a9fb092fc414a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionText: {fileID: 11417388}
+  description: {fileID: 11417388}
 --- !u!114 &11427782
 MonoBehaviour:
   m_ObjectHideFlags: 1
