@@ -10,252 +10,460 @@
 				"instructionText": "COMPLETA CON EL NÚMERO QUE FALTA",
 				"options": [30, 40, 38],
 				"correct": 1,
-				"image": "1-a-01",
-				"hintImg": "1-a-h-01"
+				"image": "N01EJ01",
+				"hintImg": "N01EJ01PISTA"
 			}, {
 				"name": "1.2",
 				"instructionAudio": "1.2",
 				"instructionText": "ELIGE LA SECUENCIA CORRECTA",
 				"options": ["A", "B", "C"],
 				"correct": 2,
-				"image": "1-b-01",
-				"hintImg": "1-b-h-01"
+				"image": "N01EJ02",
+				"hintImg": "N01EJ02PISTA"
 			}, {
 				"name": "1.3",
 				"instructionAudio": "1.3",
 				"instructionText": "REALIZA LA SUMA",
 				"options": [19, 17, 21],
 				"correct": 0,
-				"image": "1-c-01",
-				"hintImg": "1-c-h-01"
+				"image": "N01EJ03",
+				"hintImg": "N01EJ03PISTA"
 			}, {
 				"name": "1.4",
 				"instructionAudio": "1.3",
 				"instructionText": "REALIZA LA SUMA",
 				"options": [21, 19, 18],
 				"correct": 0,
-				"image": "1-d-01",
-				"hintImg": "1-d-h-01"
+				"image": "N01EJ04",
+				"hintImg": "N01EJ04PISTA"
 			}, {
 				"name": "1.5",
 				"instructionAudio": "1.5",
 				"instructionText": "REALIZA LA RESTA",
 				"options": [20, 30, 46],
 				"correct": 0,
-				"image": "1-e-01",
-				"hintImg": "1-e-h-01"
+				"image": "N01EJ05",
+				"hintImg": "N01EJ05PISTA"
 			}, {
 				"name": "1.6",
 				"instructionAudio": "1.5",
 				"instructionText": "REALIZA LA RESTA",
 				"options": [38, 40, 32],
 				"correct": 0,
-				"image": "1-f-01",
-				"hintImg": "1-f-h-01"
-			}, {
+				"image": "N01EJ06",
+				"hintImg": "N01EJ06PISTA"
+			},
+			{
 				"name": "1.7",
 				"instructionAudio": "1.7",
-				"instructionText": "ELIGE EL TRIÁNGULO",
-				"options": ["A", "B", "C"],
-				"correct": 1,
-				"image": "1-g-01",
-				"hintImg": "1-g-h-01"
-			}, {
-				"name": "1.8",
-				"instructionAudio": "1.8",
-				"instructionText": "ELIGE EL CUADRADO",
-				"options": ["A", "B", "C"],
-				"correct": 2,
-				"image": "1-h-01",
-				"hintImg": "1-h-h-01"
-			}, {
-				"name": "1.9",
-				"instructionAudio": "1.9",
-				"instructionText": "¿CUÁNTOS CHIPETINES TIENE AGUSTÍN?",
-				"options": [12, 14, 13],
-				"correct": 0,
-				"image": "1-i-01",
-				"hintImg": "1-i-h-01"
-			}, {
-				"name": "1.10",
-				"instructionAudio": "1.10",
 				"instructionText": "ELIGE LA BARRA MÁS LARGA",
 				"options": ["A", "B", "C"],
 				"correct": 0,
-				"image": "1-j-01",
-				"hintImg": "1-j-h-01"
+				"image": "N01EJ07",
+				"hintImg": "N01EJ07PISTA"
+			}
+			, {
+				"name": "1.8",
+				"instructionAudio": "1.8",
+				"instructionText": "ELIGE EL TRIÁNGULO",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N01EJ08",
+				"hintImg": "N01EJ08PISTA"
+			}, {
+				"name": "1.9",
+				"instructionAudio": "1.9",
+				"instructionText": "ELIGE EL CUADRADO",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N01EJ09",
+				"hintImg": "N01EJ09PISTA"
+			}, {
+				"name": "1.10",
+				"instructionAudio": "1.10",
+				"instructionText": "¿CUÁNTOS CHUPETINES TIENE AGUSTÍN?",
+				"options": [14, 15, 16],
+				"correct": 1,
+				"image": "N01EJ10",
+				"hintImg": "N01EJ10PISTA"
+			}, 
+			{
+				"name": "1.11",
+				"instructionAudio": "1.11",
+				"instructionText": "¿CUÁNTOS CHUPETINES TIENE AGUSTÍN?",
+				"options": [9, 11, 13],
+				"correct": 1,
+				"image": "N01EJ11",
+				"hintImg": "N01EJ11PISTA"
 			}]
 		}, {
 			"level": 2,
 			"exercises": [{
 				"name": "2.1",
 				"instructionAudio": "2.1",
-				"instructionText": "¿Cuál de estas está mal escrita?",
+				"instructionText": "¿Cuál de éstas está mal escrita?",
 				"options": ["A", "B", "C"],
-				"correct": 2,
-				"image": "2-a-01",
-				"hintImg": "2-a-h-01"
+				"correct": 1,
+				"image": "N02EJ01",
+				"hintImg": "N02EJ01PISTA"
 			}, {
 				"name": "2.2",
 				"instructionAudio": "2.2",
 				"instructionText": "Realiza la suma",
-				"options": [515, 151, 445],
-				"correct": 0,
-				"image": "2-b-01",
-				"hintImg": "2-b-h-01"
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N02EJ02",
+				"hintImg": "N02EJ02PISTA"
 			}, {
 				"name": "2.3",
 				"instructionAudio": "2.3",
 				"instructionText": "Realiza la resta",
-				"options": [662, 688, 702],
-				"correct": 0,
-				"image": "2-c-01",
-				"hintImg": "2-c-h-01"
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N02EJ03",
+				"hintImg": "N02EJ03PISTA"
 			}, {
 				"name": "2.4",
 				"instructionAudio": "2.4",
 				"instructionText": "Realiza la multiplicación",
-				"options": ["56", "58", "68"],
+				"options": ["465", "495", "395"],
 				"correct": 0,
-				"image": "2-d-01",
-				"hintImg": "2-d-h-01"
+				"image": "N02EJ04",
+				"hintImg": "N02EJ04PISTA"
 			}, {
 				"name": "2.5",
 				"instructionAudio": "2.5",
 				"instructionText": "Realiza la multiplicación",
-				"options": [250, 25, 500],
-				"correct": 0,
-				"image": "2-e-01",
-				"hintImg": "2-e-h-01"
+				"options": [702, 662, 686],
+				"correct": 1,
+				"image": "N02EJ05",
+				"hintImg": "N02EJ05PISTA"
 			}, {
 				"name": "2.6",
 				"instructionAudio": "2.6",
 				"instructionText": "Elige el número par",
 				"options": ["A", "B", "C"],
-				"correct": 2,
-				"image": "2-f-01",
-				"hintImg": "2-f-h-01"
+				"correct": 0,
+				"image": "N02EJ06",
+				"hintImg": "N02EJ06PISTA"
 			}, {
 				"name": "2.7",
 				"instructionAudio": "2.7",
 				"instructionText": "¿Cuántas figuritas compró Matías?",
-				"options": [35, 30, 45],
+				"options": ["A", "B", "C"],
 				"correct": 0,
-				"image": "2-g-01",
-				"hintImg": "2-g-h-01"
+				"image": "N02EJ07",
+				"hintImg": "N02EJ07PISTA"
 			}, {
 				"name": "2.8",
 				"instructionAudio": "2.8",
 				"instructionText": "¿Cuántas revistas recibe el diariero?",
-				"options": [53, 47, 35],
+				"options": ["A", "B", "C"],
 				"correct": 0,
-				"image": "2-h-01",
-				"hintImg": "2-h-h-01"
+				"image": "N02EJ08",
+				"hintImg": "N02EJ08PISTA"
 			}, {
 				"name": "2.9",
 				"instructionAudio": "2.9",
 				"instructionText": "Elige el cubo",
-				"options": ["A", "B", "C"],
+				"options": [53, 47, 35],
 				"correct": 0,
-				"image": "2-i-01",
-				"hintImg": "2-i-h-01"
+				"image": "N02EJ09",
+				"hintImg": "N02EJ09PISTA"
 			}, {
 				"name": "2.10",
 				"instructionAudio": "2.10",
 				"instructionText": "Elige la pirámide",
-				"options": ["A", "B", "C"],
+				"options": [18, 15, 12],
+				"correct": 2,
+				"image": "N02EJ10",
+				"hintImg": "N02EJ10PISTA"
+			}, {
+				"name": "2.11",
+				"instructionAudio": "2.11",
+				"instructionText": "Elige la pirámide",
+				"options": [12, 9, 14],
 				"correct": 0,
-				"image": "2-j-01",
-				"hintImg": "2-j-h-01"
+				"image": "N02EJ11",
+				"hintImg": "N02EJ11PISTA"
 			}]
 		}, {
 			"level": 3,
 			"instructionAudio": "",
 			"exercises": [{
-				"name": "asd",
-				"options": ["a", "b", "c"],
+				"name": "3.1",
+				"instructionAudio": "3.1",
+				"instructionText": "",
+				"options": ["A", "B", "C"],
 				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
+				"image": "N03EJ01",
+				"hintImg": "N03EJ01PISTA"
 			}, {
-				"name": "asd",
-				"options": ["a", "b", "c"],
-				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
+				"name": "3.2",
+				"instructionAudio": "3.2",
+				"instructionText": "Realiza la suma",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N03EJ02",
+				"hintImg": "N03EJ02PISTA"
 			}, {
-				"name": "asd",
-				"options": ["a", "b", "c"],
+				"name": "3.3",
+				"instructionAudio": "3.3",
+				"instructionText": "Realiza la resta",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N03EJ03",
+				"hintImg": "N03EJ03PISTA"
+			}, {
+				"name": "3.4",
+				"instructionAudio": "3.4",
+				"instructionText": "Realiza la multiplicación",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N03EJ04",
+				"hintImg": "N03EJ04PISTA"
+			}, {
+				"name": "3.5",
+				"instructionAudio": "3.5",
+				"instructionText": "Realiza la multiplicación",
+				"options": ["A", "B", "C"],
 				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
-			}]
+				"image": "N03EJ05",
+				"hintImg": "N03EJ05PISTA"
+			}, {
+				"name": "3.6",
+				"instructionAudio": "3.6",
+				"instructionText": "Elige el número par",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N03EJ06",
+				"hintImg": "N03EJ06PISTA"
+			}, {
+				"name": "3.7",
+				"instructionAudio": "3.7",
+				"instructionText": "¿Cuántas figuritas compró Matías?",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N03EJ07",
+				"hintImg": "N03EJ07PISTA"
+			}, {
+				"name": "3.8",
+				"instructionAudio": "3.8",
+				"instructionText": "¿Cuántas revistas recibe el diariero?",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N03EJ08",
+				"hintImg": "N03EJ08PISTA"
+			}, {
+				"name": "3.9",
+				"instructionAudio": "3.9",
+				"instructionText": "Elige el cubo",
+				"options": [118, 126, 104],
+				"correct": 0,
+				"image": "N03EJ09",
+				"hintImg": "N03EJ09PISTA"
+			}, {
+				"name": "3.10",
+				"instructionAudio": "3.10",
+				"instructionText": "Elige la pirámide",
+				"options": [2, 3, 6],
+				"correct": 2,
+				"image": "N03EJ10",
+				"hintImg": "N03EJ10PISTA"
+			}, {
+				"name": "3.11",
+				"instructionAudio": "3.11",
+				"instructionText": "Elige la pirámide",
+				"options": [5, 15, 10],
+				"correct": 0,
+				"image": "N03EJ11",
+				"hintImg": "N03EJ11PISTA"
+			}]		
 		}, {
 			"level": 4,
 			"instructionAudio": "",
 			"exercises": [{
-				"name": "asd",
-				"options": ["a", "b", "c"],
-				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
+				"name": "4.1",
+				"instructionAudio": "4.1",
+				"instructionText": "",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N04EJ01",
+				"hintImg": "N04EJ01PISTA"
 			}, {
-				"name": "asd",
-				"options": ["a", "b", "c"],
-				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
+				"name": "4.2",
+				"instructionAudio": "4.2",
+				"instructionText": "Realiza la suma",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N04EJ02",
+				"hintImg": "N04EJ02PISTA"
 			}, {
-				"name": "asd",
-				"options": ["a", "b", "c"],
+				"name": "4.3",
+				"instructionAudio": "4.3",
+				"instructionText": "Realiza la resta",
+				"options": [43, 53, 63],
 				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
-			}]
+				"image": "N04EJ03",
+				"hintImg": "N04EJ03PISTA"
+			}, {
+				"name": "4.4",
+				"instructionAudio": "4.4",
+				"instructionText": "Realiza la multiplicación",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N04EJ04",
+				"hintImg": "N04EJ04PISTA"
+			}, {
+				"name": "4.5",
+				"instructionAudio": "4.5",
+				"instructionText": "Realiza la multiplicación",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N04EJ05",
+				"hintImg": "N04EJ05PISTA"
+			}, {
+				"name": "4.6",
+				"instructionAudio": "4.6",
+				"instructionText": "Elige el número par",
+				"options": ["A", "B", "C"],
+				"correct": 0,
+				"image": "N04EJ06",
+				"hintImg": "N04EJ06PISTA"
+			}, {
+				"name": "4.7",
+				"instructionAudio": "4.7",
+				"instructionText": "¿Cuántas figuritas compró Matías?",
+				"options": [0, 45, 55],
+				"correct": 1,
+				"image": "N04EJ07",
+				"hintImg": "N04EJ07PISTA"
+			}, {
+				"name": "4.8",
+				"instructionAudio": "4.8",
+				"instructionText": "¿Cuántas revistas recibe el diariero?",
+				"options": [23, 22, 32],
+				"correct": 1,
+				"image": "N04EJ08",
+				"hintImg": "N04EJ08PISTA"
+			}, {
+				"name": "4.9",
+				"instructionAudio": "4.9",
+				"instructionText": "Elige el cubo",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N04EJ09",
+				"hintImg": "N04EJ09PISTA"
+			}, {
+				"name": "4.10",
+				"instructionAudio": "4.10",
+				"instructionText": "Elige la pirámide",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N04EJ10",
+				"hintImg": "N04EJ10PISTA"
+			}, {
+				"name": "4.11",
+				"instructionAudio": "4.11",
+				"instructionText": "Elige la pirámide",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N04EJ11",
+				"hintImg": "N04EJ11PISTA"
+			}]		
 		}, {
 			"level": 5,
 			"instructionAudio": "",
 			"exercises": [{
-				"name": "asd",
-				"options": ["a", "b", "c"],
+				"name": "5.1",
+				"instructionAudio": "5.1",
+				"instructionText": "",
+				"options": ["A", "B", "C"],
 				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
+				"image": "N05EJ01",
+				"hintImg": "N05EJ01PISTA"
 			}, {
-				"name": "asd",
-				"options": ["a", "b", "c"],
+				"name": "5.2",
+				"instructionAudio": "5.2",
+				"instructionText": "Realiza la suma",
+				"options": ["A", "B", "C"],
 				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
+				"image": "N05EJ02",
+				"hintImg": "N05EJ02PISTA"
 			}, {
-				"name": "asd",
-				"options": ["a", "b", "c"],
-				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
-			}]
-		}, {
-			"level": 6,
-			"instructionAudio": "",
-			"exercises": [{
-				"name": "asd",
-				"options": ["a", "b", "c"],
-				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
+				"name": "5.3",
+				"instructionAudio": "5.3",
+				"instructionText": "Realiza la resta",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N05EJ03",
+				"hintImg": "N05EJ03PISTA"
 			}, {
-				"name": "asd",
-				"options": ["a", "b", "c"],
-				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
+				"name": "5.4",
+				"instructionAudio": "5.4",
+				"instructionText": "Realiza la multiplicación",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N05EJ04",
+				"hintImg": "N05EJ04PISTA"
 			}, {
-				"name": "asd",
-				"options": ["a", "b", "c"],
+				"name": "5.5",
+				"instructionAudio": "5.5",
+				"instructionText": "Realiza la multiplicación",
+				"options": [9, 10, 11],
 				"correct": 0,
-				"image": "asd",
-				"hintImg": "asd"
-			}]
-		}]
+				"image": "N05EJ05",
+				"hintImg": "N05EJ05PISTA"
+			}, {
+				"name": "5.6",
+				"instructionAudio": "5.6",
+				"instructionText": "Elige el número par",
+				"options": ["A", "B", "C"],
+				"correct": 0,
+				"image": "N05EJ06",
+				"hintImg": "N05EJ06PISTA"
+			}, {
+				"name": "5.7",
+				"instructionAudio": "5.7",
+				"instructionText": "¿Cuántas figuritas compró Matías?",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N05EJ07",
+				"hintImg": "N05EJ07PISTA"
+			}, {
+				"name": "5.8",
+				"instructionAudio": "5.8",
+				"instructionText": "¿Cuántas revistas recibe el diariero?",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N05EJ08",
+				"hintImg": "N05EJ08PISTA"
+			}, {
+				"name": "5.9",
+				"instructionAudio": "5.9",
+				"instructionText": "Elige el cubo",
+				"options": ["A", "B", "C"],
+				"correct": 1,
+				"image": "N05EJ09",
+				"hintImg": "N05EJ09PISTA"
+			}, {
+				"name": "5.10",
+				"instructionAudio": "5.10",
+				"instructionText": "Elige la pirámide",
+				"options": ["A", "B", "C"],
+				"correct": 2,
+				"image": "N05EJ10",
+				"hintImg": "N05EJ10PISTA"
+			}, {
+				"name": "5.11",
+				"instructionAudio": "5.11",
+				"instructionText": "Elige la pirámide",
+				"options": ["A", "B", "C"],
+				"correct": 0,
+				"image": "N05EJ11",
+				"hintImg": "N05EJ11PISTA"
+			}]		
+		}
+		]
 	}
 }

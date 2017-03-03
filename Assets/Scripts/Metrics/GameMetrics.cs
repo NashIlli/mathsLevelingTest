@@ -13,8 +13,9 @@ namespace Assets.Scripts.Metrics
 
         public GameMetrics()
         {
-            answers = new int[MathsController.GetController().GetTotalActivities()];
-            hints = new int[MathsController.GetController().GetTotalActivities()];
+            int totalActivities = MathsController.GetController().GetTotalActivities();
+            answers = new int[totalActivities];
+            hints = new int[totalActivities];
         }
 
         internal void AddRightAnswer(int question)

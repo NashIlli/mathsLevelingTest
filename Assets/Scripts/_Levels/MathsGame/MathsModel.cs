@@ -22,7 +22,7 @@ namespace Assets.Scripts._Levels.MathsGame
 
         internal int GetTotalActivities()
         {
-            return 10;
+            return activities.Count;
         }
 
         public override void NextChallenge()
