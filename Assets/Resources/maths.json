@@ -40,15 +40,15 @@
 				"name": "1.5",
 				"instructionAudio": "1.5",
 				"instructionText": "REALIZA LA RESTA",
-				"options": [20, 30, 46],
-				"correct": 0,
+				"options": [11, 12, 13],
+				"correct": 1,
 				"image": "N01EJ05",
 				"hintImg": "N01EJ05PISTA"
 			}, {
 				"name": "1.6",
-				"instructionAudio": "1.5",
+				"instructionAudio": "1.6",
 				"instructionText": "REALIZA LA RESTA",
-				"options": [38, 40, 32],
+				"options": [20, 30, 46],
 				"correct": 0,
 				"image": "N01EJ06",
 				"hintImg": "N01EJ06PISTA"
