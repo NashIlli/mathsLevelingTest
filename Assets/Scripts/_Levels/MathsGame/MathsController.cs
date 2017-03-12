@@ -78,13 +78,17 @@ namespace Assets.Scripts._Levels.MathsGame
         {
             if (mathsModel.CheckAnswer(selectedOption))
             {
-                SoundController.GetController().PlayRightSound();
                 LogRightAnswer(mathsModel.GetCurrentActivity().GetIndex());
-            } else
-            {
-                SoundController.GetController().PlayWrongSound();
-                LogWrongAnswer(mathsModel.GetCurrentActivity().GetIndex());
+
             }
+            else
+            {
+                LogWrongAnswer(mathsModel.GetCurrentActivity().GetIndex());
+
+            }
+            SoundController.GetController().PlayRightSound();
+
+
             NextChallenge();
         }
 

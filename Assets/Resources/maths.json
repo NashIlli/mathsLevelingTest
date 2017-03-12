@@ -443,7 +443,7 @@
 				"instructionAudio": "5.9",
 				"instructionText": "Elige el cubo",
 				"options": ["A", "B", "C"],
-				"correct": 1,
+				"correct": 0,
 				"image": "N05EJ09",
 				"hintImg": "N05EJ09PISTA"
 			}, {
@@ -451,7 +451,7 @@
 				"instructionAudio": "5.10",
 				"instructionText": "Elige la pirámide",
 				"options": ["A", "B", "C"],
-				"correct": 2,
+				"correct": 0,
 				"image": "N05EJ10",
 				"hintImg": "N05EJ10PISTA"
 			}, {

@@ -87,7 +87,7 @@ namespace Assets.Scripts._Levels.MathsGame
 
         private void UpdateTicButton()
         {
-            ticBtn.interactable = selectedOption != -1;
+            ticBtn.interactable = options[0].transform.parent.GetComponent<ToggleGroup>().AnyTogglesOn();
         }
 
         internal void EndGame()
